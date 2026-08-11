@@ -25,15 +25,16 @@ Before writing or modifying code, inspect repository state:
 1. Formulate a step-by-step implementation plan. For non-trivial tasks, use `.agents/templates/plan-template.md`.
 2. Ensure task boundaries are clear (in-scope vs out-of-scope).
 3. If requirements are ambiguous, clarify design decisions before writing code.
+4. **Questions vs. Directives:** Answer questions and propose next actions; do not make file edits on questions alone.
 
 ### Phase 3: Implementation
 1. Perform minimal invasive changes to fulfill requirements.
 2. Follow existing code style, architecture, and design patterns.
-3. Keep edits atomic and focused. Do not combine unrelated refactoring with feature edits.
+3. Keep edits atomic and focused. Do not refactor code outside the scope of the instruction without asking permission.
 
 ### Phase 4: Empirical Verification
-1. **Never declare success without empirical evidence.**
-2. Run automated test suites, build checks, and linters.
+1. **Never declare success without empirical evidence** when implementing functional changes.
+2. Run automated test suites, build checks, and linters. Skip running full builds and unit tests if changes are strictly limited to comments or documentation.
 3. Verify that zero regressions were introduced.
 
 ### Phase 5: Handoff & Memory Sync

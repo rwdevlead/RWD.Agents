@@ -42,3 +42,14 @@ Use language-appropriate docstring conventions (TSDoc/JSDoc for TypeScript/JS, D
 ```
 
 If code requires extensive explanation to be understood, **refactor the code for readability** before adding comments.
+
+---
+
+## 4. Plain-Language Style Guidelines
+
+Write comments in plain, accessible language:
+- **Short statements:** Write clear, concise statements that anyone can follow.
+- **One idea per sentence:** Break complex points into separate single-idea sentences.
+- **No jargon or long words:** Use simple, short words where short ones work.
+- **Keep technical specifics:** Always retain essential details such as file names, config keys, and explicit reasons for technical choices.
+

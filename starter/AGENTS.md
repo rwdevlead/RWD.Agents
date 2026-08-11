@@ -21,6 +21,8 @@ This file provides instructions for AI agents assisting developers on this proje
 
 ## Working Rules
 
-- **Minimal Surprises:** Do not perform large unrequested refactors or add unrequested dependencies.
-- **Verify Execution:** Run tests or build checks to verify changes whenever available.
+- **Questions Are Inquiries, Not Edits:** Answer questions and propose actions before making changes; do not execute edits on questions alone.
+- **Strict Scope Control:** Do not refactor code outside the defined scope of the instruction without explicit user permission.
+- **Plain-Language Comments:** Write comments in plain words. Use short statements anyone can follow, one idea per sentence, no jargon, and short words over long words. Keep useful specifics like file names, config keys, and rationale.
+- **Selective Verification:** Verify changes with tests or build checks when making functional updates. If writing comments only, running builds and unit tests is not required.
 - **Clear Communication:** Provide concise summaries of work completed and highlight any open questions.

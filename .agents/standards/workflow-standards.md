@@ -33,16 +33,19 @@ Every AI session operating on this repository MUST follow this 5-step lifecycle:
 - For non-trivial structural changes, outline the proposed files, schema, or workflow before writing code.
 - Use [`.agents/templates/plan-template.md`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/.agents/templates/plan-template.md) when presenting multi-step proposals to the user.
 - If requirements are underspecified, clarify intent before making broad edits.
+- **Questions vs. Directives:** Answer questions directly and propose action plans. Do not execute file edits on questions alone.
 
 ### Step 3: Execute
 - Make direct, token-efficient, atomic edits.
 - Maintain agent-agnostic formatting (standard GitHub Flavored Markdown, valid YAML frontmatter for skills).
 - Never modify `legacy-repo/` unless explicitly instructed.
+- **Strict Scope Control:** Do not refactor code outside the defined scope of the instruction without explicit permission.
 
 ### Step 4: Verify
 - Validate markdown syntax, skill YAML frontmatter headers, and path references.
 - Verify template variables (e.g. `{{PROJECT_NAME}}`, `{{TECH_STACK}}`) are intact in `starter/`.
 - Ensure dual-layer sync is complete between framework root and `starter/`.
+- **Comment-Only Verification Exemption:** Running builds and unit tests is unnecessary if changes are strictly limited to writing code comments or documentation.
 
 ### Step 5: Hand Off
 - Execute the `/handoff` skill to update [`.agents/memory/AI_HANDOFF.md`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/.agents/memory/AI_HANDOFF.md).

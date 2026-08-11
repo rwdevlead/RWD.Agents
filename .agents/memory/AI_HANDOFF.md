@@ -21,10 +21,12 @@ Completed Reference Examples (`.agents/examples/` and `starter/.agents/examples/
 | Build remaining core skills (`/refactor-code`, `/generate-docs`, `/commit-cleanup`) | Complete | Created 3 remaining skills across framework root and `starter/` |
 | Build framework helper scripts (`scripts/`) | Complete | Created `init-project.sh` and `validate-templates.sh` |
 | Build reference examples (`.agents/examples/`) | Complete | Created `sample-feature-plan.md`, `sample-review-verdict.md`, and `sample-skill.md` |
+| Implement 4 Working Rules (Plain Comments, Questions vs Edits, Build Exemption, Scope Limit) | Complete | Added to AGENTS.md, code-documentation-standards.md, and workflow-standards.md (synced to starter/) |
+| Run template validation script (`scripts/validate-templates.sh`) | Complete | Executed validation script with 0 errors across 15 mirrored assets |
 
 ## Recent Progress
-- Built reference examples [`sample-feature-plan.md`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/.agents/examples/sample-feature-plan.md), [`sample-review-verdict.md`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/.agents/examples/sample-review-verdict.md), and [`sample-skill.md`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/.agents/examples/sample-skill.md) across both framework root and `starter/`.
-- Built [`scripts/init-project.sh`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/scripts/init-project.sh) and [`scripts/validate-templates.sh`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/scripts/validate-templates.sh). Executed linter with 0 errors.
+- Added 4 core working principles (Plain-Language Comments, Questions vs. Edits, Verification Exemption for Comment Edits, Strict Scope Control) to `AGENTS.md` and standards files across both framework root and `starter/`.
+- Executed [`scripts/validate-templates.sh`](file:///Users/ka8kgj/Documents/Source/RWD.Ai.Stack/scripts/validate-templates.sh) successfully with 0 errors across all frontmatter, links, and mustache placeholders.
 
 ## Immediate Next Action
-All primary roadmap items completed. Ready for user guidance on next steps or git commit packaging.
+User will perform manual git commit of modified files. All framework roadmap tasks complete.

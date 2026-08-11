@@ -23,3 +23,7 @@ RWD.Ai.Stack is a repository of **agent-agnostic reusable assets** designed to b
 - **Read Before Writing:** Inspect existing files before modifying them.
 - **Clarity & Simplicity:** Keep instructions concise, direct, and token-efficient.
 - **No Speculation:** If requirements are underspecified, ask the user for clarification.
+- **Questions Are Inquiries, Not Edits:** When the user asks a question, answer the question and propose action. Do not apply file or code edits until given an explicit action instruction.
+- **Strict Scope Control:** When making changes, do not refactor code outside the scope of the instruction without asking permission first.
+- **Plain-Language Comments:** Write comments in plain words as short statements anyone can follow. Use one idea per sentence, zero jargon, and short words over long words, while retaining useful specifics such as file names, config keys, and rationale.
+- **Selective Verification:** When changes are strictly limited to comments or documentation, running builds and unit tests is unnecessary.

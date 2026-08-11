@@ -33,3 +33,5 @@
 ## 6. Architecture & Milestone Log
 - `2026-07-27`: Reset repository structure. Created root `AGENTS.md`, `README.md`, `.agents/`, and `starter/` bundle. Established the 5-folder `.agents/` architecture (`memory/`, `standards/`, `templates/`, `skills/`, `examples/`). Built `/handoff` skill, `memory-policy.md`, and refactored `context-template.md`.
 - `2026-08-09`: Built comprehensive `workflow-standards.md`, `coding-standards.md`, `plan-template.md`, multi-perspective `/review` skill, 7-skill suite (`/refactor-code`, `/generate-docs`, `/commit-cleanup`), framework helper scripts (`scripts/init-project.sh` & `scripts/validate-templates.sh`), and reference examples across framework root and `starter/`.
+- `2026-08-11`: Incorporated 4 core working principles (Plain-Language Comments, Questions vs. Directives, Verification Exemption for Comment Edits, Strict Scope Control) across `AGENTS.md`, `code-documentation-standards.md`, and `workflow-standards.md` in both framework root and `starter/`. Executed `scripts/validate-templates.sh` with 0 errors.
+
